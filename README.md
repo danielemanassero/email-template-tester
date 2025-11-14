@@ -1,12 +1,12 @@
 # EMAIL TEMPLATE TESTER
 
-App Node js che permette di inviare un template html via email ad una lista di destinatari, al fine di poterlo testare su diversi client di posta.
+A Node.js application that allows sending an HTML template via email to a list of recipients, in order to test it on different email clients.
 
-Richiede Node js 24.x o successive.
+Requires **Node.js 24.x** or later.
 
-## File .env
+## .env File
 
-Nella root del progetto è necessario creare un file `.env` per il corretto funzionamento dell'app. Il file deve contenere le seguenti variabili:
+In the project root, it is necessary to create a `.env` file for the correct functioning of the app. The file must contain the following variables:
 
 ```
 # Logger info
@@ -24,3 +24,9 @@ SMTP_PASS=password
 SENDER_FROM_NAME=Name Surname or whatever
 SENDER_FROM_EMAIL=name.surname@email.com
 ```
+
+## Commands
+
+The app must be run from the CLI. To send emails, execute the following command:
+
+`npm run sender`
