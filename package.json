@@ -1,0 +1,26 @@
+{
+  "name": "email-template-tester",
+  "version": "0.1.0",
+  "description": "Simple Node js app that send an email html template in order to test it",
+  "homepage": "https://github.com/danielemanassero/email-template-tester#readme",
+  "bugs": {
+    "url": "https://github.com/danielemanassero/email-template-tester/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielemanassero/email-template-tester.git"
+  },
+  "license": "MIT",
+  "author": "Daniele Manassero",
+  "type": "module",
+  "main": "sender.js",
+  "scripts": {
+    "sender": "node sender.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "log4js": "^6.9.1",
+    "nodemailer": "^7.0.10"
+  }
+}
