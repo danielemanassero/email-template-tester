@@ -1,0 +1,470 @@
+<mjml>
+
+  <mj-head>
+    <mj-title>Stellantis Autumn Campaign Fiat</mj-title>
+    <!-- <mj-breakpoint width="320px" /> -->
+    <mj-preview>Stellantis Autumn Campaign Fiat</mj-preview>
+    <mj-style>
+      .box-item {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.20);
+        padding: 0;
+      }
+      .box-table {
+        border-collapse: separate;
+        box-sizing: border-box;
+        /* border-spacing: 10px; */
+        border: 2px dashed #C2C2C2;
+        border-radius: 10px !important;
+        /* border-spacing: 2px; */
+        font-family: Arial, sans-serif;
+        padding: 0;
+        width: 100%;
+      }
+      .box-table-row {}
+      .box-table-col {
+        width: 50%;
+        display: table-cell;
+      }
+      .box-table-first-col {
+        border-right: 2px dashed #C2C2C2;
+      }
+      .box-table-col-content-left {
+        color: #9C1019;
+        font-family: Arial, sans-serif;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+      }
+      .box-table-col-content-right {
+        color: #9C1019;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      .cta {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        background-color: #9C1019;
+        border-radius: 64px;
+        padding: 8px 16px;
+        text-align: center;
+      }
+      .last-logo-first-col {
+        width: 50%;
+      }
+      .last-logo-second-col {
+        width: 50%;
+      }
+      .footer-ico{
+        width: 33% !important;
+        display: table-cell;
+        margin: 0;
+        padding: 0 20px;
+        padding-right: 0;
+        vertical-align: top;
+        text-align: left;
+      }
+
+      @media only screen and (max-width: 479px) {
+        .box-table-col {
+          /* width: 86% !important; */
+          width: auto !important;
+          display: block !important;
+        }
+        .box-table-first-col {
+          border-right: 0 !important;
+          border-bottom: 2px dashed #C2C2C2 !important;
+        }
+        .box-table-col-content-left, .box-table-col-content-right {
+          text-align: center !important;
+        }
+        .last-logo-first-col {
+          width: 60% !important;
+        }
+        .last-logo-second-col {
+          width: 40% !important;
+        }
+        .footer-ico{
+          width: 90% !important;
+          display: block !important;
+          padding: 0 20px 30px 20px !important;
+          text-align: center !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#fff" width="660px">
+
+    <!-- HEADER (Logo Fiat) -->
+    <mj-section padding="42px 0" text-align="center">
+      <mj-column padding="0 30px">
+        <mj-image src="fiat_images/logo_fiat.png" width="53px" height="40px" align="left" padding="0" alt="Fiat logo" />
+      </mj-column>
+    </mj-section>
+
+    <!-- BOX Autumn Check-Up -->
+    <mj-section padding="0 30px" text-align="center">
+      <mj-column padding="0" css-class="box-item">
+        <!-- red border-->
+        <mj-raw>
+          <div style="height: 10px; border-radius: 8px 8px 0 0; background: #ad0c33;">&nbsp;</div>
+        </mj-raw>
+        
+        <!-- image-->
+        <mj-image src="fiat_images/autumn_check_up.jpg" padding="0 0 48px 0" fluid-on-mobile="true" />
+        
+        <!-- title-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#9C1019">
+          AUTUMN CHECK UP FOR THE BEST COMEBACK
+        </mj-text>
+
+        <!-- text-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
+          Hello (Name),
+          <br /><br />
+          Restart your journeys to school or work with <strong>Autumn Check-up</strong> for only <strong>XX€</strong> with <strong>XX checks included</strong>. Book now!
+        </mj-text>
+        
+        <!-- table-->
+        <mj-text padding="0 64px 24px 64px">
+          <table class="box-table" cellpadding="20" align="center">
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">AUTUMN CHECK-UP</span>
+                  <br />
+                  <span style="font-size: 14px; font-weight: 400;">XX checks included</span>
+                </div>
+              </td>
+              <td class="box-table-col">
+                <!-- <div class="box-table-col-content-right"> -->
+                <div class="box-table-col-content-right">
+                  <!-- <span style="font-size: 14px; font-weight: 400;">up to </span> -->
+                  <span style="font-size: 24px; font-weight: 700;">XX€</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+
+        <!-- cta-->
+        <mj-text padding="0 64px 12px 64px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+          <a href="#" class="cta">
+            DOWNLOAD COUPON
+          </a>
+        </mj-text>
+
+        <!-- cta-->
+        <mj-text padding="0 64px 48px 64px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+          <a href="#" class="cta">
+            BOOK AN APPOINTMENT
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SPACER -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="32px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- BOX All Around The Wheel -->
+    <mj-section padding="0 30px" text-align="center">
+      <mj-column padding="0" css-class="box-item">
+        
+        <!-- image-->
+        <mj-image src="fiat_images/all_around.png" padding="0 0 48px 0" fluid-on-mobile="true" border-radius="8px 8px 0 0" />
+        
+        <!-- title-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#9C1019">
+          ALL AROUND THE WHEEL
+        </mj-text>
+
+        <!-- text-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
+          Introducing our <strong>free, complete check</strong> of brakes, shocks, and tyres. And if it's time for a change, enjoy special replacement offers: <strong>-15% off discs and pads</strong>, and <strong>-20% off shock absorbers</strong>.
+          <br /><br />
+          Book your check now and drive with confidence.
+        </mj-text>
+        
+        <!-- table-->
+        <mj-text padding="0 64px 24px 64px">
+          <table class="box-table" cellpadding="20" align="center">
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">WHEEL CHECK​</span>
+                  <br />
+                  <span style="font-size: 14px; font-weight: 400;">(Brakes, Shock Abs, Tires)</span>
+                </div>
+              </td>
+              <td class="box-table-col">
+                <div class="box-table-col-content-right">
+                  <span style="font-size: 24px; font-weight: 700;">For Free</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+
+        <!-- table-->
+        <mj-text padding="0 64px 24px 64px">
+          <table class="box-table" cellpadding="20" align="center">
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">BRAKES DISCS AND PADS</span>
+                </div>
+              </td>
+              <td class="box-table-col">
+                <!-- <div class="box-table-col-content-right"> -->
+                <div class="box-table-col-content-right">
+                <span style="font-size: 14px; font-weight: 400;">up to </span>
+                <span style="font-size: 24px; font-weight: 700;">-15%</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+
+        <!-- table-->
+        <mj-text padding="0 64px 24px 64px">
+          <table class="box-table" cellpadding="20" align="center">
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">SHOCK ABSORBERS​</span>
+                </div>
+              </td>
+              <td class="box-table-col">
+                <!-- <div class="box-table-col-content-right"> -->
+                <div class="box-table-col-content-right">
+                <span style="font-size: 14px; font-weight: 400;">up to </span>
+                <span style="font-size: 24px; font-weight: 700;">-20%</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+
+        <!-- cta-->
+        <mj-text padding="0 64px 12px 64px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+          <a href="#" class="cta">
+            DOWNLOAD COUPON
+          </a>
+        </mj-text>
+
+        <!-- cta-->
+        <mj-text padding="0 64px 48px 64px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+          <a href="#" class="cta">
+            BOOK AN APPOINTMENT
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SPACER -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="32px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- BOX Prepare for Winter -->
+    <mj-section padding="0 30px" text-align="center">
+      <mj-column padding="0" css-class="box-item">
+        <!-- image-->
+        <mj-image src="fiat_images/winter_tyres.png" padding="0 0 48px 0" border-radius="8px 8px 0 0" />
+        
+        <!-- title-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#9C1019">
+          PREPARE FOR WINTER WITH BEST TYRES
+        </mj-text>
+        
+        <!-- text-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
+          Get your Fiat ready for the cold season with best <strong>Winter premium tyres</strong> (Gooyear or Dunlop). Enjoy optimal grip, safety and control on every road.
+          <br /><br />
+          Book an appointment to choose the best ones.
+        </mj-text>
+        
+        <!-- cta-->
+        <mj-text padding="0 64px 48px 64px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+          <a href="#" class="cta">
+            BOOK AN APPOINTMENT
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SPACER -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="40px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- BOX Extended Warranty -->
+    <mj-section padding="0 30px" text-align="center">
+      <mj-column padding="0" css-class="box-item">
+        <!-- image-->
+        <mj-image src="fiat_images/extended_warranty.png" padding="0 0 48px 0" border-radius="8px 8px 0 0" />
+        
+        <!-- title-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#9C1019">
+          EXTENDED WARRANTY:
+          <br />
+          MORE COVER, MORE PEACE OF MIND
+        </mj-text>
+        
+        <!-- text-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
+          Drive through autumn and beyond with confidence. Subscribe to <strong>EXTENDED WARRANTY</strong> online and extend the <strong>Manufacturer Warranty</strong> and <strong>Roadside Assistance</strong> beyond the standard.
+          <br /><br />
+          Enter your car data and mileage to discover the offer for you, also available with <strong>flexible payment solutions</strong>.
+        </mj-text>
+
+        <!-- cta-->
+        <mj-text padding="0 64px 12px 64px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+          <a href="#" class="cta">
+            GET A QUOTE AND BUY ONLINE
+          </a>
+        </mj-text>
+        
+        <!-- cta-->
+        <mj-text padding="0 64px 48px 64px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+          <a href="#" class="cta">
+            BOOK AN APPOINTMENT
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SPACER -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="32px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- BOX Beautiful Bad Weather -->
+    <mj-section padding="0 30px" text-align="center">
+      <mj-column padding="0" css-class="box-item">
+        
+        <!-- image-->
+        <mj-image src="fiat_images/beautiful_bad_wheather.png" padding="0 0 48px 0" fluid-on-mobile="true" border-radius="8px 8px 0 0" />
+        
+        <!-- title-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#9C1019">
+          KEEP YOUR FIAT BEAUTIFUL EVEN IN BAD WEATHER
+        </mj-text>
+
+        <!-- text-->
+        <mj-text padding="0 64px 24px 64px" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
+          Rain or mud? A new set of <strong>carpet</strong> and <strong>rubber mats by Fiat Authentic Accessories</strong> are the perfect solution to keep your car clean and tidy.
+          <br />
+          Buy them now with exclusive <strong>XX% discount!</strong>
+        </mj-text>
+        
+        <!-- table-->
+        <mj-text padding="0 64px 24px 64px">
+          <table class="box-table" cellpadding="20" align="center">
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">CARPET, RUBBER MATS</span>
+                </div>
+              </td>
+              <td class="box-table-col">
+                <!-- <div class="box-table-col-content-right"> -->
+                <div class="box-table-col-content-right">
+                  <span style="font-size: 14px; font-weight: 400;">up to </span>
+                  <span style="font-size: 24px; font-weight: 700;">XX%</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+
+        <!-- cta-->
+        <mj-text padding="0 64px 48px 64px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+          <a href="#" class="cta">
+            BUY ONLINE
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SPACER -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="70px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- PETRONAS SELENIA LOGO -->
+    <mj-section padding="0 30px">
+      <mj-group>
+        <mj-column padding="0" vertical-align="middle" css-class="last-logo-first-col">
+          <mj-text font-family="Arial, sans-serif" font-size="12px" line-height="20px" color="#000" align="right" padding="0 5px 0 0">
+            IN COLLABORATION WITH:
+          </mj-text>
+        </mj-column>
+        <mj-column padding="0" vertical-align="middle" css-class="last-logo-second-col">
+          <mj-image src="fiat_images/logo_selenia_petronas.png" width="83px" align="left" padding="0" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- SPACER -->
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="70px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section padding="0" text-align="center" background-color="#7E8A93">
+      <mj-column padding="20px 32px">
+        <mj-table align="center" table-layout="auto" padding="0" font-family="Arial, sans-serif" font-size="11px" line-height="13px" color="#fff">
+          <tr>
+            <td class="footer-ico">
+              <p style="margin: 0; padding: 0;"><img alt="ico-footer" height="36" src="fiat_images/ciao_fiat_footer.png" style="margin: 0; padding: 0; border: none;"></p>
+              <p style="margin: 0; padding: 0; font-size: 12px; color: #ffffff;"><b>Fiat customer services</b></p>
+              <p style="margin: 0; padding: 0; font-size: 11px; line-height: 11px; color: #ffffff;">Info...</p>
+            </td>
+            <td class="footer-ico">
+              <p style="margin: 0; padding: 0;"><a href="#" target="_blank"><img alt="ico-footer" height="36" src="fiat_images/my_fiat_footer.png" style="margin: 0; padding: 0; border: none;"></a></p>
+              <p style="margin: 0; padding: 0; font-size: 12px; color: #ffffff;"><b>my Fiat</b></p>
+              <p style="margin: 0; padding: 0; font-size: 11px; line-height: 11px; color: #ffffff;">Register and enter a world of benefits and personalised services.</p>
+            </td>
+            <td class="footer-ico">
+              <p style="margin: 0; padding: 0;"><a href="#" target="_blank"><img alt="ico-footer" height="36" src="fiat_images/facebook_footer.png" style="margin: 0; padding: 0; border: none;"></a></p>
+              <p style="margin: 0; padding: 0; font-size: 12px; color: #ffffff;"><b>Social</b></p>
+              <p style="margin: 0; padding: 0; font-size: 11px; line-height: 11px; color: #ffffff;">Connect to @MoparEMEA to discover Fiat after-sales services</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER UNSUBSCRIBE -->
+    <mj-section padding="0" text-align="center" background-color="#6a7883">
+      <!-- <mj-column width="600px" padding="20px 32px"> -->
+      <mj-column padding="20px 32px">
+        <mj-text padding="0" font-family="Arial, sans-serif" font-size="11px" line-height="13px" color="#fff" align="center">
+          If you would like to unsubscribe, please <a alias="Unsubscribe" href="#" style="color: #fff; text-decoration: underline;">Click here</a>. Please read our <a href="https://privacyportal.stellantis.com" style="color: #fff; text-decoration: underline;">privacy policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+
+</mjml>
