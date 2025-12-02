@@ -34,6 +34,42 @@
         margin: 0;
         padding: 0;
       }
+      .box-list-table {
+        border-collapse: collapse;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        padding: 0;
+        width: 100%;
+      }
+      .box-list-table-row {
+        border-bottom: 2px dashed #C2C2C2;
+      }
+      .box-list-table-col-left {
+        padding: 24px 0;
+      }
+      .box-list-table-col-right {
+        padding: 24px 0 24px 24px;
+      }
+      .box-list-table-number {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 42px;
+        width: 42px;
+        height: 42px;
+        /* padding: 5px 10px; */
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .box-list-table-text {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #000;
+        font-weight: 400;
+      }
       .cta {
         display: inline-block;
         color: #fff;
@@ -111,9 +147,9 @@
 
         <!-- text-->
         <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
-          Hi (Name),
+          Hello (Name),
           <br /><br />
-          Get ready for winter with the <strong>Fiat Winter Check-up</strong> for just <strong>XX euros</strong>, with <strong>10 checks included</strong>.
+          Get ready for winter with the <strong>Fiat Winter Check-up</strong> for just <strong>XX euros</strong>, with <strong>XX checks</strong>, including <strong>battery, windscreen wiper and lights check</strong>.
           <br /><br />
           Book now and enjoy the cold season.
         </mj-text>
@@ -131,34 +167,25 @@
               </td>
               <td class="box-table-col">
                 <div class="box-table-col-content-right">
+                  <!-- <span style="font-size: 14px; font-weight: 400;">up to </span> -->
                   <span style="font-size: 28px; font-weight: 700;">XX€</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">BATTERY, LIGHTS AND WIPERS CHECK</span>
+                </div>
+              </td>
+              <td class="box-table-col">
+                <div class="box-table-col-content-right">
+                  <span style="font-size: 28px; font-weight: 700;">For free</span>
                 </div>
               </td>
             </tr>
           </table>
         </mj-text>
-
-      <!-- </mj-column>
-    </mj-section> -->
-
-    <!-- <mj-section background-color="pink" padding="0" text-align="center">
-      <mj-column border="1px solid green" width="56px" padding="0"></mj-column>
-
-      <mj-column border="1px solid blue" width="243px" padding="0" background-color="#EBEBEB" vertical-align="middle">
-        <mj-text padding="0" align="center" height="58px">WINTER CHECK-UP</mj-text>
-      </mj-column>
-
-      <mj-column width="8px" border="1px solid black"></mj-column>
-
-      <mj-column border="1px solid blue" width="243px" padding="0" background-color="#EBEBEB" vertical-align="middle">
-        <mj-text padding="0" align="center" height="58px">XX€</mj-text>
-      </mj-column>
-
-      <mj-column border="1px solid green" width="56px" padding="0"></mj-column>
-    </mj-section> -->
-
-    <!-- <mj-section background-color="#fff" padding="0" text-align="left">
-      <mj-column padding="0"> -->
 
         <!-- cta-->
         <!-- <mj-text padding="16px 56px 12px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
@@ -180,22 +207,22 @@
       </mj-column>
     </mj-section>
 
-    <!-- BOX Drive Safe -->
+    <!-- BOX Drive Every Winter -->
     <mj-section background-color="#fff" padding="0" text-align="left">
       <mj-column padding="0">
         <!-- image-->
-        <mj-image src="fiat_images/drive_safe.png" padding="0 0 40px 0" fluid-on-mobile="true" />
+        <mj-image src="fiat_images/drive_every_winter.png" padding="0 0 40px 0" fluid-on-mobile="true" />
 
         <!-- title-->
         <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#000">
-            DRIVE SAFE WITH FULL VISIBILITY
+            DRIVE EVERY WINTER ROAD WITH CONFIDENCE
         </mj-text>
 
         <!-- text-->
         <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
-          Don't let winter weather reduce your visibility. Get new <strong>wiper blades</strong> with savings <strong>up to -XX%</strong> and drive safely. 
-          <br /><br />
-          Book now an appointment.
+          Cold weather demands reliability.
+          <br />
+          Choose Eurorepar <strong>batteries, wipers, and projector lights</strong> now available at seasonal prices. Book today and drive confidently.
         </mj-text>
 
         <!-- table-->
@@ -204,9 +231,33 @@
             <tr class="box-table-row" align="center">
               <td class="box-table-col box-table-first-col">
                 <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">BATTERY</span>
+                </div>
+              </td>
+              <td class="box-table-col">
+                <div class="box-table-col-content-right">
+                  <span style="font-size: 14px; font-weight: 400;">up to </span>
+                  <span style="font-size: 28px; font-weight: 700;">-XX%</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
                   <span style="font-size: 16px; font-weight: 700;">WIPERS</span>
-                  <!-- <br />
-                  <span style="font-size: 14px; font-weight: 400;">(Brakes, Shock Abs, Tires)</span> -->
+                </div>
+              </td>
+              <td class="box-table-col">
+                <div class="box-table-col-content-right">
+                  <span style="font-size: 14px; font-weight: 400;">up to </span>
+                  <span style="font-size: 28px; font-weight: 700;">-XX%</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">PROJECTOR LIGHTS</span>
                 </div>
               </td>
               <td class="box-table-col">
@@ -239,22 +290,58 @@
       </mj-column>
     </mj-section>
 
-    <!-- BOX Maintain Control -->
+    <!-- BOX Tyres -->
     <mj-section background-color="#fff" padding="0" text-align="left">
       <mj-column padding="0">
         <!-- image-->
-        <mj-image src="fiat_images/winter_tyres.png" padding="0 0 40px 0" fluid-on-mobile="true" />
+        <mj-image src="fiat_images/tyres_every_weather.png" padding="0 0 40px 0" fluid-on-mobile="true" />
 
         <!-- title-->
         <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#000">
-            MAINTAIN CONTROL ON EVERY ROAD
+            TYRES FOR EVERY WEATHER:
+            <br />
+            CASHBACK FOR YOU
         </mj-text>
 
         <!-- text-->
         <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
-          Face the lower temperatures and slippery roads. Choose <strong>Winter</strong> or <strong>4-Season tyres</strong> from the best brands (Goodyear, Dunlop, Michelin, Pirelli) for greater safety, grip, and control, whatever the weather.
+          When the roads get cold, make sure your grip stays strong. Buy <strong>4 or 2 Eurorepar Reliance All-Season</strong> tyres by XX/XX/XX and get up to <strong>XX€ cashback</strong>.
           <br /><br />
-          Book now an appointment.
+          Book now and drive with confidence, whatever the weather.
+        </mj-text>
+
+        <!-- table-->
+        <mj-text padding="0 56px 24px 56px">
+          <table class="box-table" cellpadding="24" align="center">
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">BUY 4 TYRES</span>
+                  <br />
+                  <span style="font-size: 14px; font-weight: 400;">Eurorepar All-Season tyres</span>
+                </div>
+              </td>
+              <td class="box-table-col">
+                <div class="box-table-col-content-right">
+                  <span style="font-size: 28px; font-weight: 700;">Get XX€ Cashback</span>
+                </div>
+              </td>
+            </tr>
+            <tr class="box-table-row" align="center">
+              <td class="box-table-col box-table-first-col">
+                <div class="box-table-col-content-left">
+                  <span style="font-size: 16px; font-weight: 700;">BUY 2 TYRES</span>
+                  <br />
+                  <span style="font-size: 14px; font-weight: 400;">Eurorepar All-Season tyres</span>
+                </div>
+              </td>
+              <td class="box-table-col">
+                <div class="box-table-col-content-right">
+                  <span style="font-size: 28px; font-weight: 700;">Get XX€ Cashback</span>
+                </div>
+              </td>
+            </tr>
+          </table>
         </mj-text>
 
         <!-- cta-->
@@ -269,24 +356,82 @@
       </mj-column>
     </mj-section>
 
-    <!-- BOX Extended warranty -->
+    <!-- BOX Getting a Cashback -->
+    <mj-section background-color="#fff" padding="0" text-align="center">
+      <mj-column padding="0" css-class="box-item">
+        <!-- title-->
+        <mj-text padding="40px 56px 0 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#000">
+          GETTING A CASHBACK IS EASY!
+        </mj-text>
+        
+        <!-- text-->
+        <mj-text padding="0 56px 24px 56px" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
+          <table class="box-list-table" cellpadding="0" align="center">
+            <tr class="box-list-table-row">
+              <td class="box-list-table-col-left">
+                <span class="box-list-table-number">1</span>
+              </td>
+              <td class="box-list-table-col-right">
+                <span class="box-list-table-text"><strong>Purchase and install 4 or 2 All-Season tyres</strong> at an Authorized Fiat Service Center by XX/XX/XXXX.</span>
+              </td>
+            </tr>
+            <tr class="box-list-table-row">
+              <td class="box-list-table-col-left">
+                <span class="box-list-table-number">2</span>
+              </td>
+              <td class="box-list-table-col-right">
+                <span class="box-list-table-text"><strong>Request your invoice and make sure it clearly shows the product purchased</strong>.</span>
+              </td>
+            </tr>
+            <tr class="box-list-table-row">
+              <td class="box-list-table-col-left">
+                <span class="box-list-table-number">3</span>
+              </td>
+              <td class="box-list-table-col-right">
+                <span class="box-list-table-text"><strong>Register and upload your invoice</strong> by XX/XX/XXXX on the website.</span>
+              </td>
+            </tr>
+            <tr class="box-list-table-row" style="border:0">
+              <td class="box-list-table-col-left">
+                <span class="box-list-table-number">4</span>
+              </td>
+              <td class="box-list-table-col-right">
+                <span class="box-list-table-text"><strong>Receive your cashback</strong> directly to your bank account.</span>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+        
+        <!-- cta-->
+        <!-- <mj-text padding="0 56px 40px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+          <a href="#" class="cta">
+            BOOK AN APPOINTMENT
+          </a>
+        </mj-text> -->
+        <mj-button padding="0 56px 40px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+            BOOK AN APPOINTMENT
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- BOX Service Care -->
     <mj-section background-color="#fff" padding="0" text-align="left">
       <mj-column padding="0">
         <!-- image-->
-        <mj-image src="fiat_images/extended_warranty.png" padding="0 0 40px 0" fluid-on-mobile="true" />
+        <mj-image src="fiat_images/service_care.png" padding="0 0 40px 0" fluid-on-mobile="true" />
 
         <!-- title-->
         <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#000">
-            EXTENDED WARRANTY:
+            SERVICE CARE:
             <br />
-            MORE COVERAGE FOR YOUR DRIVE
+            MAINTENANCE MADE EASY
         </mj-text>
 
         <!-- text-->
         <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
-          Subscribe to <strong>EXTENDED WARRANTY</strong> online and extend the <strong>Manufacturer Warranty</strong> and <strong>Roadside Assistance</strong> beyond the standard.
+          All your essential maintenance, in one smart plan. Take care of your Fiat with <strong>Service Care</strong>, a complete set of routine services, including labour and parts replacement as per the manufacturer's guidelines. 
           <br /><br />
-          Enter your vehicle data and mileage to discover the offer for you, also available with <strong>flexible payment solutions</strong>.
+          Now available with <strong>flexible payment options</strong>.
         </mj-text>
 
         <!-- cta-->
@@ -387,7 +532,7 @@
         </mj-button>
       </mj-column>
     </mj-section>
-
+    
     <!-- BOX Associated Dealer -->
     <mj-section background-color="#058A80" padding="0" text-align="left">
       <mj-column padding="0">

@@ -1,9 +1,9 @@
 <mjml>
 
   <mj-head>
-    <mj-title>Stellantis Winter Campaign Fiat</mj-title>
+    <mj-title>Stellantis Winter Campaign Alfa Romeo</mj-title>
     <!-- <mj-breakpoint width="320px" /> -->
-    <mj-preview>Stellantis Winter Campaign Fiat</mj-preview>
+    <mj-preview>Stellantis Winter Campaign Alfa Romeo</mj-preview>
     <mj-style>
       .box-table {
         border-collapse: separate;
@@ -17,18 +17,18 @@
       .box-table-col {
         width: 50%;
         display: table-cell;
-        background-color: #EBEBEB;
+        background-color: #000;
       }
       /*.box-table-first-col {}*/
       .box-table-col-content-left {
-        color: #000;
+        color: #F4F4F4;
         font-family: Arial, sans-serif;
         text-align: center;
         margin: 0;
         padding: 0;
       }
       .box-table-col-content-right {
-        color: #000;
+        color: #F4F4F4;
         font-family: Arial, sans-serif;
         text-align: center;
         margin: 0;
@@ -36,11 +36,11 @@
       }
       .cta {
         display: inline-block;
-        color: #fff;
+        color: #292B35;
         text-decoration: none;
-        background-color: #000;
-        border-radius: 70px;
-        padding: 18px 32px;
+        background-color: #F4F4F4;
+        border-radius: 4px;
+        padding: 12px 24px;
         text-align: center;
         min-width: 120px; /* opzionale, per evitare che diventi troppo piccolo */
         white-space: normal; /* permette l'andata a capo */
@@ -67,7 +67,7 @@
         }
         .cta {
           font-size: 18px; /* opzionale, per migliorare la leggibilità */
-          padding: 18px 16px;
+          padding: 12px 16px;
           width: 100% !important; /* il bottone occupa tutta la larghezza del contenitore */
           max-width: 100%;
         }
@@ -78,43 +78,45 @@
     </mj-style>
   </mj-head>
 
-  <mj-body background-color="#efefef" width="600px">
+  <mj-body background-color="#000" width="600px">
 
     <!-- FALLBACK -->
     <mj-section padding="0" text-align="center">
       <mj-column padding="0">
-        <mj-text padding="12px" align="center" font-family="Arial, sans-serif"  font-size="14px" font-weight="400" color="#000">
-          If you have trouble viewing this email, <a href="#" style="color: #000;">click here</a>.
+        <mj-text padding="12px" align="center" font-family="Arial, sans-serif"  font-size="14px" font-weight="400" color="#858585">
+          If you have trouble viewing this email, <a href="#" style="color: #858585;">click here</a>.
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <!-- HEADER (Logo Fiat) -->
-    <mj-section background-color="#fff" padding="0" text-align="left">
-      <mj-column padding="24px">
-        <mj-image src="fiat_images/logo_fiat.png" width="53px" height="40px" align="left" padding="0" alt="Fiat logo" />
+    <!-- HEADER (Logo Alfa Romeo) -->
+    <mj-section background-color="#292C35" padding="0" text-align="center">
+      <mj-column padding="32px">
+        <mj-image src="alfa_romeo_images/alfa.png" width="48px" height="48px" align="center" padding="0" alt="Alfa Romeo logo" />
       </mj-column>
     </mj-section>
 
     <!-- BOX Winter Check-Up -->
-    <mj-section background-color="#fff" padding="0" text-align="left">
+    <mj-section background-color="#292C35" padding="0" text-align="left">
       <mj-column padding="0">
         <!-- image-->
-        <mj-image src="fiat_images/winter_check.png" padding="0 0 40px 0" fluid-on-mobile="true" />
+        <mj-image src="alfa_romeo_images/winter_check.png" padding="0 0 40px 0" fluid-on-mobile="true" />
 
         <!-- title-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#000">
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#F4F4F4">
             WINTER CHECK UP
-            <br />
+            <br>
             TO BE READY FOR COLDER DAYS
         </mj-text>
 
         <!-- text-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#F4F4F4">
           Hi (Name),
-          <br /><br />
-          Get ready for winter with the <strong>Fiat Winter Check-up</strong> for just <strong>XX euros</strong>, with <strong>10 checks included</strong>.
-          <br /><br />
+          <br>
+          <br>
+          Get ready for winter with the <strong>Alfa Romeo Winter Check-up</strong> for just <strong>XX euros</strong>, with <strong>XX checks included</strong>.
+          <br>
+          <br>
           Book now and enjoy the cold season.
         </mj-text>
 
@@ -131,6 +133,7 @@
               </td>
               <td class="box-table-col">
                 <div class="box-table-col-content-right">
+                  <!-- <span style="font-size: 14px; font-weight: 400;">up to </span> -->
                   <span style="font-size: 28px; font-weight: 700;">XX€</span>
                 </div>
               </td>
@@ -138,62 +141,42 @@
           </table>
         </mj-text>
 
-      <!-- </mj-column>
-    </mj-section> -->
-
-    <!-- <mj-section background-color="pink" padding="0" text-align="center">
-      <mj-column border="1px solid green" width="56px" padding="0"></mj-column>
-
-      <mj-column border="1px solid blue" width="243px" padding="0" background-color="#EBEBEB" vertical-align="middle">
-        <mj-text padding="0" align="center" height="58px">WINTER CHECK-UP</mj-text>
-      </mj-column>
-
-      <mj-column width="8px" border="1px solid black"></mj-column>
-
-      <mj-column border="1px solid blue" width="243px" padding="0" background-color="#EBEBEB" vertical-align="middle">
-        <mj-text padding="0" align="center" height="58px">XX€</mj-text>
-      </mj-column>
-
-      <mj-column border="1px solid green" width="56px" padding="0"></mj-column>
-    </mj-section> -->
-
-    <!-- <mj-section background-color="#fff" padding="0" text-align="left">
-      <mj-column padding="0"> -->
-
         <!-- cta-->
-        <!-- <mj-text padding="16px 56px 12px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+        <!-- <mj-text padding="16px 56px 12px 56px" align="center" color="#F4F4F4" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
           <a href="#" class="cta">
             DOWNLOAD COUPON
           </a>
         </mj-text>
-        <mj-text padding="0 56px 40px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+        <mj-text padding="0 56px 40px 56px" align="center" color="#F4F4F4" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
           <a href="#" class="cta">
             BOOK AN APPOINTMENT
           </a>
         </mj-text> -->
-        <mj-button padding="16px 56px 12px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+        <mj-button padding="16px 56px 12px 56px" inner-padding="12px 24px" align="center" color="#292B35" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#F4F4F4" border-radius="4px" href="#">
             DOWNLOAD COUPON
         </mj-button>
-        <mj-button padding="0 56px 40px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+        <mj-button padding="0 56px 40px 56px" inner-padding="12px 24px" align="center" color="#292B35" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#F4F4F4" border-radius="4px" href="#">
             BOOK AN APPOINTMENT
         </mj-button>
       </mj-column>
     </mj-section>
 
-    <!-- BOX Drive Safe -->
-    <mj-section background-color="#fff" padding="0" text-align="left">
+    <!-- BOX Drive safe with full visibility -->
+    <mj-section background-color="#292C35" padding="0" text-align="left">
       <mj-column padding="0">
         <!-- image-->
-        <mj-image src="fiat_images/drive_safe.png" padding="0 0 40px 0" fluid-on-mobile="true" />
+        <mj-image src="alfa_romeo_images/wiper_blades.png" padding="0 0 40px 0" fluid-on-mobile="true" />
 
         <!-- title-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#000">
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#F4F4F4">
             DRIVE SAFE WITH FULL VISIBILITY
         </mj-text>
 
         <!-- text-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
-          Don't let winter weather reduce your visibility. Get new <strong>wiper blades</strong> with savings <strong>up to -XX%</strong> and drive safely. 
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#F4F4F4">
+          Don’t let winter weather reduce your visibility.
+          <br>
+          Get new <strong>wiper blades</strong> with savings <strong>up to -XX%</strong> and drive safely.
           <br /><br />
           Book now an appointment.
         </mj-text>
@@ -205,13 +188,11 @@
               <td class="box-table-col box-table-first-col">
                 <div class="box-table-col-content-left">
                   <span style="font-size: 16px; font-weight: 700;">WIPERS</span>
-                  <!-- <br />
-                  <span style="font-size: 14px; font-weight: 400;">(Brakes, Shock Abs, Tires)</span> -->
                 </div>
               </td>
               <td class="box-table-col">
                 <div class="box-table-col-content-right">
-                  <span style="font-size: 14px; font-weight: 400;">up to </span>
+                  <span style="font-size: 16px; font-weight: 400;">up to </span>
                   <span style="font-size: 28px; font-weight: 700;">-XX%</span>
                 </div>
               </td>
@@ -220,111 +201,113 @@
         </mj-text>
 
         <!-- cta-->
-        <!-- <mj-text padding="16px 56px 12px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+        <!-- <mj-text padding="16px 56px 12px 56px" align="center" color="#F4F4F4" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
           <a href="#" class="cta">
             DOWNLOAD COUPON
           </a>
         </mj-text>
-        <mj-text padding="0 56px 40px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+        <mj-text padding="0 56px 40px 56px" align="center" color="#F4F4F4" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
           <a href="#" class="cta">
             BOOK AN APPOINTMENT
           </a>
         </mj-text> -->
-        <mj-button padding="16px 56px 12px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+        <mj-button padding="16px 56px 12px 56px" inner-padding="12px 24px" align="center" color="#292B35" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#F4F4F4" border-radius="4px" href="#">
             DOWNLOAD COUPON
         </mj-button>
-        <mj-button padding="0 56px 40px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+        <mj-button padding="0 56px 40px 56px" inner-padding="12px 24px" align="center" color="#292B35" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#F4F4F4" border-radius="4px" href="#">
             BOOK AN APPOINTMENT
         </mj-button>
       </mj-column>
     </mj-section>
 
-    <!-- BOX Maintain Control -->
-    <mj-section background-color="#fff" padding="0" text-align="left">
+    <!-- BOX Winter tyres -->
+    <mj-section background-color="#292C35" padding="0" text-align="left">
       <mj-column padding="0">
         <!-- image-->
-        <mj-image src="fiat_images/winter_tyres.png" padding="0 0 40px 0" fluid-on-mobile="true" />
+        <mj-image src="alfa_romeo_images/tyres.png" padding="0 0 40px 0" fluid-on-mobile="true" />
 
         <!-- title-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#000">
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#F4F4F4">
             MAINTAIN CONTROL ON EVERY ROAD
         </mj-text>
 
         <!-- text-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
-          Face the lower temperatures and slippery roads. Choose <strong>Winter</strong> or <strong>4-Season tyres</strong> from the best brands (Goodyear, Dunlop, Michelin, Pirelli) for greater safety, grip, and control, whatever the weather.
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#F4F4F4">
+          Face the lower temperatures and slippery roads.
+          <br>
+          Choose <strong>Winter</strong> or <strong>4-Season tyres</strong> from the best brands (Gooyear, Dunlop, Michelin, Pirelli) for greater safety, grip, and control, whatever the weather.
           <br /><br />
           Book now an appointment.
         </mj-text>
 
         <!-- cta-->
-        <!-- <mj-text padding="16px 56px 40px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+        <!-- <mj-text padding="16px 56px 40px 56px" align="center" color="#F4F4F4" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
           <a href="#" class="cta">
             BOOK AN APPOINTMENT
           </a>
         </mj-text> -->
-        <mj-button padding="16px 56px 40px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+        <mj-button padding="16px 56px 40px 56px" inner-padding="12px 24px" align="center" color="#292B35" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#F4F4F4" border-radius="4px" href="#">
             BOOK AN APPOINTMENT
         </mj-button>
       </mj-column>
     </mj-section>
 
     <!-- BOX Extended warranty -->
-    <mj-section background-color="#fff" padding="0" text-align="left">
+    <mj-section background-color="#292C35" padding="0" text-align="left">
       <mj-column padding="0">
         <!-- image-->
-        <mj-image src="fiat_images/extended_warranty.png" padding="0 0 40px 0" fluid-on-mobile="true" />
+        <mj-image src="alfa_romeo_images/extended_warranty.png" padding="0 0 40px 0" fluid-on-mobile="true" />
 
         <!-- title-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#000">
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#F4F4F4">
             EXTENDED WARRANTY:
-            <br />
+            <br>
             MORE COVERAGE FOR YOUR DRIVE
         </mj-text>
 
         <!-- text-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#F4F4F4">
           Subscribe to <strong>EXTENDED WARRANTY</strong> online and extend the <strong>Manufacturer Warranty</strong> and <strong>Roadside Assistance</strong> beyond the standard.
           <br /><br />
           Enter your vehicle data and mileage to discover the offer for you, also available with <strong>flexible payment solutions</strong>.
         </mj-text>
 
         <!-- cta-->
-        <!-- <mj-text padding="16px 56px 12px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+        <!-- <mj-text padding="16px 56px 12px 56px" align="center" color="#F4F4F4" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
           <a href="#" class="cta">
             GET A QUOTE AND BUY ONLINE
           </a>
         </mj-text>
-        <mj-text padding="0 56px 40px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+        <mj-text padding="0 56px 40px 56px" align="center" color="#F4F4F4" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
           <a href="#" class="cta">
             BOOK AN APPOINTMENT
           </a>
         </mj-text> -->
-        <mj-button padding="16px 56px 12px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+        <mj-button padding="16px 56px 12px 56px" inner-padding="12px 24px" align="center" color="#292B35" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#F4F4F4" border-radius="4px" href="#">
             GET A QUOTE AND BUY ONLINE
         </mj-button>
-        <mj-button padding="0 56px 40px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+        <mj-button padding="0 56px 40px 56px" inner-padding="12px 24px" align="center" color="#292B35" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#F4F4F4" border-radius="4px" href="#">
             BOOK AN APPOINTMENT
         </mj-button>
       </mj-column>
     </mj-section>
 
-    <!-- BOX Accessories -->
-    <mj-section background-color="#fff" padding="0" text-align="left">
+    <!-- BOX Optionals -->
+    <mj-section background-color="#292C35" padding="0" text-align="left">
       <mj-column padding="0">
         <!-- image-->
-        <mj-image src="fiat_images/optionals.gif" padding="0 0 40px 0" fluid-on-mobile="true" />
+        <mj-image src="alfa_romeo_images/accessories.gif" padding="0 0 40px 0" fluid-on-mobile="true" />
 
         <!-- title-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#000">
-            FIAT AUTHENTIC ACCESSORIES
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="20px" font-weight="700" color="#F4F4F4">
+            ALFA ROMEO AUTHENTIC ACCESSORIES
             <br />
             TO GEAR UP FOR ANY WINTER JOURNEY
         </mj-text>
 
         <!-- text-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#000">
-          Equip your vehicle for winter journeys with <strong>Fiat Authentic Accessories</strong>. Get snow chains or socks, roof bars, cargo tray and all weather mats with <strong>seasonal discounts</strong> and keep your vehicle clean and organized.
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="400" color="#F4F4F4">
+          Equip your vehicle for winter journeys with <strong>Alfa Romeo Authentic Accessories</strong>. Get snow chains or socks, roof bars, cargo tray and all weather mats with <strong>seasonal discounts</strong> and keep your vehicle clean and organized.
         </mj-text>
 
         <!-- table-->
@@ -333,7 +316,11 @@
             <tr class="box-table-row" align="center">
               <td class="box-table-col box-table-first-col">
                 <div class="box-table-col-content-left">
-                  <span style="font-size: 16px; font-weight: 700;">SNOW CHAINS AND SOCKS</span>
+                  <span style="font-size: 16px; font-weight: 700;">
+                    SNOW CHAINS
+                    <br>
+                    AND SOCKS
+                  </span>
                   <!-- <br />
                   <span style="font-size: 14px; font-weight: 400;">(Brakes, Shock Abs, Tires)</span> -->
                 </div>
@@ -348,14 +335,18 @@
             <tr class="box-table-row" align="center">
               <td class="box-table-col box-table-first-col">
                 <div class="box-table-col-content-left">
-                  <span style="font-size: 16px; font-weight: 700;">CROSS BARS AND ROOF CARRIAGES​</span>
+                  <span style="font-size: 16px; font-weight: 700;">
+                    CROSS BARS AND
+                    <br>
+                    ROOF CARRIAGES
+                  </span>
                   <!-- <br />
                   <span style="font-size: 14px; font-weight: 400;">(Brakes, Shock Abs, Tires)</span> -->
                 </div>
               </td>
               <td class="box-table-col">
                 <div class="box-table-col-content-right">
-                  <!-- <span style="font-size: 16px; font-weight: 400;">up to </span> -->
+                  <!-- <span style="font-size: 14px; font-weight: 400;">up to </span> -->
                   <span style="font-size: 28px; font-weight: 700;">-XX%</span>
                 </div>
               </td>
@@ -363,12 +354,20 @@
             <tr class="box-table-row" align="center">
               <td class="box-table-col box-table-first-col">
                 <div class="box-table-col-content-left">
-                  <span style="font-size: 16px; font-weight: 700;">ALL WEATHER FLOOR MATS AND CARGO TRAY​</span>
+                  <span style="font-size: 16px; font-weight: 700;">
+                    ALL WEATHER
+                    <br>
+                    FLOOR MATS AND
+                    <br>
+                    CARGO TRAY
+                  </span>
+                  <!-- <br />
+                  <span style="font-size: 14px; font-weight: 400;">(Brakes, Shock Abs, Tires)</span> -->
                 </div>
               </td>
               <td class="box-table-col">
                 <div class="box-table-col-content-right">
-                  <!-- <span style="font-size: 16px; font-weight: 400;">up to </span> -->
+                  <!-- <span style="font-size: 14px; font-weight: 400;">up to </span> -->
                   <span style="font-size: 28px; font-weight: 700;">-XX%</span>
                 </div>
               </td>
@@ -377,23 +376,23 @@
         </mj-text>
 
         <!-- cta-->
-        <!-- <mj-text padding="16px 56px 40px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
+        <!-- <mj-text padding="16px 56px 40px 56px" align="center" color="#F4F4F4" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
           <a href="#" class="cta">
             BUY ONLINE
           </a>
         </mj-text> -->
-        <mj-button padding="16px 56px 40px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+        <mj-button padding="16px 56px 40px 56px" inner-padding="12px 24px" align="center" color="#292B35" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#F4F4F4" border-radius="4px" href="#">
             BUY ONLINE
         </mj-button>
       </mj-column>
     </mj-section>
 
     <!-- BOX Associated Dealer -->
-    <mj-section background-color="#058A80" padding="0" text-align="left">
+    <mj-section background-color="#F4F4F4" padding="0" text-align="left">
       <mj-column padding="0">
 
         <!-- title-->
-        <mj-text padding="40px 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="15px" font-weight="400" color="#fff">
+        <mj-text padding="40px 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="15px" font-weight="400" color="#292B35">
             This offer is available at
             <br /><br />
             <span style="font-size:20px; font-weight:700;">ASSOCIATED DEALER</span>
@@ -402,7 +401,7 @@
         </mj-text>
 
         <!-- text-->
-        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="15px" font-weight="400" color="#fff">
+        <mj-text padding="0 56px 24px 56px" align="center" font-family="Arial, sans-serif" font-size="15px" font-weight="400" color="#292B35">
           and other Dealerships and Authorized Workshop
           <br />
           participating in the initiative
@@ -410,17 +409,17 @@
 
         <!-- cta-->
         <!-- <mj-text padding="16px 56px 24px 56px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700">
-          <a href="#" class="cta">
+          <a href="#" class="cta" style="background-color:#292B35; color:#F4F4F4;">
             BOOK AN APPOINTMENT
           </a>
         </mj-text> -->
-        <mj-button padding="16px 56px 40px 56px" inner-padding="18px 32px" align="center" color="#fff" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#000" border-radius="70px" href="#">
+        <mj-button padding="16px 56px 24px 56px" inner-padding="12px 24px" align="center" color="#F4F4F4" font-family="Arial, sans-serif" font-size="20px" font-weight="700" background-color="#292B35" border-radius="4px" href="#">
             BOOK AN APPOINTMENT
         </mj-button>
 
         <!-- text-->
-        <mj-text padding="0 56px 40px 56px" align="center" font-family="Arial, sans-serif" font-size="15px" font-weight="400" color="#fff">
-          Do you want to be contacted by another workshop? <a href="#" style="color:#fff; text-decoration:underline;">Click here!</a>
+        <mj-text padding="0 56px 40px 56px" align="center" font-family="Arial, sans-serif" font-size="15px" font-weight="400" color="#292B35">
+          Do you want to be contacted by another workshop? <a href="#" style="color:#292B35; text-decoration:underline;">Click here!</a>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -433,23 +432,23 @@
     </mj-section>
 
     <!-- Footer -->
-    <mj-section background-color="#fff" padding="0">
+    <mj-section background-color="#292C35" padding="0">
       <mj-column padding="32px 12px 12px 12px">
-        <mj-table padding="0 0 32px 0" align="center" cellpadding="7" table-layout="fixed" font-family="Arial, sans-serif" font-size="18px" font-weight="400" color="#000">
+        <mj-table padding="0 0 32px 0" align="center" cellpadding="7" table-layout="fixed" font-family="Arial, sans-serif" font-size="18px" font-weight="400" color="#F4F4F4">
           <tr>
             <td class="footer-phone" style="text-align:right;">
               TOLL-FREE NUMBER
             </td>
             <td style="text-align:center;" width="23px">
-              <img src="fiat_images/phone_black.png" width="23" height="23" />
+              <img src="alfa_romeo_images/phone_white.png" width="23" height="23" />
             </td>
             <td class="footer-phone" style="text-align:left; font-weight:700;">
-              <a href="tel:0080034280000" style="color:#000; text-decoration:none;">00 800 3428 0000</a>
+              <a href="tel:0080025320000" style="color:#F4F4F4; text-decoration:none;">00 800 2532 0000</a>
             </td>
           </tr>
         </mj-table>
 
-        <mj-text padding="0" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="700" color="#000">
+        <mj-text padding="0" align="center" font-family="Arial, sans-serif" font-size="16px" font-weight="700" color="#F4F4F4">
           FOLLOW US
         </mj-text>
 
@@ -457,23 +456,23 @@
           <tr>
             <td style="text-align:right;">
               <a href="#">
-                <img src="fiat_images/facebook_black.png" width="10" height="18" />
+                <img src="alfa_romeo_images/facebook_white.png" width="10" height="18" />
               </a>
             </td>
             <td style="text-align:left;">
               <a href="#">
-                <img src="fiat_images/Instagram_black.png" width="18" height="18" />
+                <img src="alfa_romeo_images/instagram_white.png" width="18" height="18" />
               </a>
             </td>
           </tr>
         </mj-table>
 
-        <mj-text padding="32px 0 0 0" align="left" font-family="Arial, sans-serif" font-size="12px" font-weight="400" color="#000">
+        <mj-text padding="32px 0 0 0" align="left" font-family="Arial, sans-serif" font-size="12px" font-weight="400" color="#F4F4F4">
           © Stellantis Europe S.p.A. 2025
           <br>
           Depending on the Stellantis brand shown above, you may receive this e-mail from Stellantis Europe S.p.A., Corso Agnelli 200, 10135 Turin (Italy), acting as data controller of your personal data, or from Stellantis Europe S.p.A., acting as data processor on behalf of PSA Automobiles SA (Stellantis Auto SAS), 2-10 Boulevard de l'Europe, F-78300 Poissy (France) or Opel Automobile GmbH, Bahnhofsplatz, D-65423 Rüsselsheim am Main (Germany).
           <br /><br />
-          <a href="#" style="color:#000; text-decoration:underline;">Click here</a> to unsubscribe or manage your rights directly at <a href="https://privacyportal.stellantis.com" style="color:#000; text-decoration:underline;">https://privacyportal.stellantis.com</a>
+          <a href="#" style="color:#fff; text-decoration:underline;">Click here</a> to unsubscribe or manage your rights directly at <a href="https://privacyportal.stellantis.com" style="color:#fff; text-decoration:underline;">https://privacyportal.stellantis.com</a>
         </mj-text>
       </mj-column>
     </mj-section>
